@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.completed_todo {
+  background: purple;
+}
+.incompleted_todo {
+  background: orangered;
+}
